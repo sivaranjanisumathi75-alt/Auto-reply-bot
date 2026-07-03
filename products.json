@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Classic T-Shirt",
+      "keywords": ["tshirt", "t-shirt", "shirt"],
+      "price": "₹499",
+      "link": "https://yourstore.com/products/classic-tshirt",
+      "reply": "👕 *Classic T-Shirt*\nPrice: ₹499\nBuy here: https://yourstore.com/products/classic-tshirt"
+    },
+    {
+      "name": "Running Shoes",
+      "keywords": ["shoes", "sneakers", "running shoes"],
+      "price": "₹1999",
+      "link": "https://yourstore.com/products/running-shoes",
+      "reply": "👟 *Running Shoes*\nPrice: ₹1999\nBuy here: https://yourstore.com/products/running-shoes"
+    }
+  ],
+  "fallback": {
+    "keywords": ["price", "link", "buy", "product", "info", "details"],
+    "reply": "Hi! 👋 Thanks for reaching out. Here's our full catalog: https://yourstore.com/products\nTell us a product name (e.g. 'shoes', 'tshirt') and we'll send you the direct link!"
+  }
+}
